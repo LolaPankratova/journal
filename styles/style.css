@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Century Gothic; 
+    src: url(fonts/centurygothic.ttf); 
+  }
+
+html{
+  font-size: 18px;
+  font-family: Century Gothic;
+  color: #343147;
+}
+
+body{
+  background-color: #A197DB; 
+  margin: 0;
+}
+
+h1{
+  font-size: 21px;
+  margin: 40px;
+}
+
+table{
+  margin: 40px;
+  border-spacing: 0;
+
+}
+
+th{
+padding: 30px 30px 30px 30px;
+border-bottom: 2px solid;
+font-weight: normal;
+}
+
+.age {
+  text-align: center
+}
+
+td{
+font-weight: bolder;
+padding: 30px 30px 30px 30px;
+vertical-align: top;
+}
+
+a {
+  color: #343147;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #F9C9AD;
+}
+
+a:active {
+  color: #DAB49E;
+} 
+
+.tr_site {
+  visibility: hidden;
+}
+
+.welcome {
+  text-align: center
+}
+
+.id_news {
+  visibility: hidden;
+}
+
+.news{
+  margin: 0px 20px 0px 0px;
+}
+
+.content {
+  font-weight: normal;
+}
+
+.input_field {
+  border-radius:  15px;
+  background: #BFBADB;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 40px  ;
+  width: 430px;
+  border: 2px solid #343147;
+  font-size: 18px;
+  font-family: Century Gothic;
+}
+
+.input_field:hover {
+  border: 2px solid  #6B60A6;
+}
+
+.input_field:focus {
+  border: 5px solid  #6B60A6;
+  outline: none;
+  outline-offset: none;
+  background: #B4ADDB
+
+}
+
+.button {
+  color: #343147;
+  border-radius:  15px;
+  background: #BFBADB;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 15px 0px 40px;
+  width: 200px;
+  border: 2px solid #343147;
+  font-size: 18px;
+  font-family: Century Gothic;
+}
+
+.button:hover {
+  color: #343147;
+  text-decoration: underline;
+}
+
+.button:active {
+  color: #F9C9AD;
+  background: #6B60A6;
+} 
+
+.author {
+margin: 10px 0px 0px 40px;
+}
+
+
